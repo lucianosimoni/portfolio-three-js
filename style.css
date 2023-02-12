@@ -9,10 +9,42 @@ body {
 }
 
 header {
+	display: flex;
+	align-items: center;
+	gap: 2rem;
 	height: 10vh;
 }
 
 #model {
 	height: 90vh;
 	width: 100vw;
+}
+
+.hotspot {
+	padding: 1rem;
+	border-radius: 12px;
+	cursor: pointer;
+}
+
+/* Return Button */
+.return-button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+
+	height: 10vh;
+	width: 100vw;
+
+	background-color: transparent;
+	border: 0;
+	font-size: x-large;
+	cursor: pointer;
+	bottom: 0;
+
+	transition: ease font-size 0.2s;
+}
+.return-button:hover {
+	font-size: xx-large;
+	font-weight: bold;
 }

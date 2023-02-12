@@ -26,8 +26,34 @@
 				src="3d object.glb"
 				shadow-intensity="2"
 				interpolation-decay="200"
-				camera-orbit="90deg 75deg 2m"
-			></model-viewer>
+				camera-orbit="92deg 81deg 61m"
+				field-of-view="20deg"
+			>
+				<!-- Projects Button -->
+				<button
+					class="hotspot"
+					slot="hotspot-projects"
+					data-position="-8.45 1.5 -5.40"
+					data-normal="8.45 1.5 -5.40"
+					onclick="moveToProjects()"
+				>
+					<span>Projects</span>
+				</button>
+
+				<!-- Contacts Button -->
+				<button
+					class="hotspot"
+					slot="hotspot-contact"
+					data-position="-7 4.3 6.4"
+					data-normal="7 4.3 6.4"
+					onclick="moveToContact()"
+				>
+					<span>Contact</span>
+				</button>
+			</model-viewer>
+
+			<!-- Return Button -->
+			<button class="return-button" onclick="moveToHome()">Return</button>
 		</main>
 	</body>
 </html>
