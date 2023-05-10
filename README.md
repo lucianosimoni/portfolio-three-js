@@ -1,3 +1,11 @@
-# Luciano Simoni - Open in Web [here](https://lucianosimoni.github.io/portfolio/)
+# 🙎 My _Three.js_ Portfolio 🌳
 
-My creative portfolio
+It was the initial idea of my Portfolio, but due to time issues I had to postpone it.
+
+<p align="center">
+  <a href="https://lucianosimoni.github.io/portfolio/">
+    👉 Check it on the Web here 👈
+  </a>
+</p>
+  
+### 👀 It is not even close to finished (can't even say started).
